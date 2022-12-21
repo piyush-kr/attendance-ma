@@ -1,0 +1,41 @@
+.td-dept {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.td-addclass {
+    outline: none;
+    padding-inline: 20px;
+    border: none;
+    background-color: rgb(0, 145, 255);
+    color: white;
+    font-size: 20px;
+}
+
+.td-attendance {
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+}
+
+.td-attendance h3 {
+    flex: 1;
+}
+
+.present,
+.absent {
+    border: none;
+    outline: none;
+    width: 100px;
+
+}
+
+.present {
+    background-color: green;
+    color: white;
+}
+
+.absent {
+    background-color: red;
+    color: white;
+}
